@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Sing Up </title>
+    <link href="output.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+    <div class="bg-grey-lighter min-h-screen flex flex-col">
+        <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+            <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
+                <form action="/" method="post">
+                    <img class="mb-4 w-20 h-20 m-auto" src="img/logo.svg" alt="logo">
+                    <h1 class="mb-8 text-3xl font-bold text-center">Singup to my Newsletter</h1>
+                
+                    <input 
+                        type="text"
+                        class="block border border-grey-light w-full p-3 rounded mb-4"
+                        name="firstName"
+                        placeholder="First Name"
+                        required
+                        autofocus />
+                    <input 
+                        type="text"
+                        class="block border border-grey-light w-full p-3 rounded mb-4"
+                        name="lastName"
+                        placeholder="Last Name"
+                        required />
+
+                    <input 
+                        type="email"
+                        class="block border border-grey-light w-full p-3 rounded mb-4"
+                        name="email"
+                        placeholder="Email"
+                        required />
+
+                    <button
+                        type="submit"
+                        class="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-green-dark focus:outline-none my-1"
+                    >Sing Me Up!</button>
+
+                    <div class="text-center text-sm text-grey-dark mt-4">
+                        <p class="mt-5 mb-3 text-center">&copy; The Developer Vai</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
